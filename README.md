@@ -3,10 +3,8 @@ This repo contains some example Scriptable request modifications for use with Ve
 
 SRM for the following Authentication structures are present in this repo:
   - [Basic Authentication]()
-  - [OAuth]()
-  - [OAuth with OpenIDConnect]()
-  - [OAuth for Entra]()
-  - 
+  - [OAuth | Username and Password](SRM-OAUTH.js)
+  - [OAuth | Client ID and Secret with OpenIDConnect for Entra](SRM-OAUTH_Azure_OIDC.js)
 
 
 [API Authentication Methods](https://docs.veracode.com/r/API_Scanning_Authentication_Methods):
