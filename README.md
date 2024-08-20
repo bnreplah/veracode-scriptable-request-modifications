@@ -1,4 +1,4 @@
-# veracode-scriptable-request-modifications #
+# Veracode Scriptable Request Modifications Examples#
 This repo contains some example Scriptable request modifications for use with Veracode DAST Scans. 
 
 SRM for the following Authentication structures are present in this repo:
