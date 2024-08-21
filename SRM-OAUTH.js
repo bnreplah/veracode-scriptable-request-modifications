@@ -1,4 +1,4 @@
-//const clientId = vc.variables['client_id'];
+const clientId = vc.variables['client_id'];
 //const clientSecret = vc.variables['client_secret'];
 //const requestId = vc.variables['request_id'];// include when needed
 const tokenUrl = vc.variables['token_url'];
@@ -40,7 +40,7 @@ function fetchToken(tokenRequest) {
 
 function updateRequestHeaders(token) {
     request.addHeader("authorization", "Bearer " + token);
-    //request.addHeader("client_id", clientId);
+    //request.addHeader("client_id", clientId); //if needed to pass in a header pass here
     //request.addHeader("client_secret", clientSecret);
     //request.addHeader("X-Request-Id", requestId);
 }
