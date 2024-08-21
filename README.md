@@ -2,6 +2,7 @@
 This repo contains some example Scriptable request modifications for use with Veracode DAST Scans. 
 
 SRM for the following Authentication structures are present in this repo:
+  - [Basic Authentication](SRM-Basic_Auth.js)
   - [Basic Authentication to Bearer Token](SRM-basic_auth-Bearer-Token.js)
   - [OAuth | Username and Password](SRM-OAUTH.js)
   - [OAuth | Client ID and Secret with OpenIDConnect for Entra](SRM-OAUTH_Azure_OIDC.js)
